@@ -12,8 +12,8 @@
                 </ul>
             </div>
             <div>
-                <button class="bg-gray-200 hover:bg-blue-500 hover:text-white duration-300 font-sm text-black rounded-full py-2 px-8 mr-4">Daftar</button>
-                <button class="bg-blue-500 hover:bg-blue-700 duration-300 font-sm text-white rounded-full py-2 px-8">Masuk</button>
+                <router-link to="/register"><button class="bg-gray-200 hover:bg-blue-500 hover:text-white duration-300 font-sm text-black rounded-full py-2 px-8 mr-4">Daftar</button></router-link>
+                <router-link to="/login"><button class="bg-blue-500 hover:bg-blue-700 duration-300 font-sm text-white rounded-full py-2 px-8">Masuk</button></router-link>
             </div>
         </div>
     </nav>
