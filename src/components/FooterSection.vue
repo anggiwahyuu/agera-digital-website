@@ -2,7 +2,7 @@
     <div class="mt-32">
         <div class="md:flex mx-24 my-14">
             <div>
-                <img class="w-full" src="../assets/images/logo_agera.svg" alt="">
+                <img class="w-full" src="../assets/images/logo_agera.svg" alt="" rel="preload">
             </div>
             <ul class="ml-32">
                 <li class="text-black font-medium text-lg">Navigasi</li>

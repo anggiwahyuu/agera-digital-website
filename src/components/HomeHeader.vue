@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="w-1/2">
-            <img src="../assets/images/hero_image.png" class="pl-10 pt-14" alt="">
+            <img src="../assets/images/hero_image.png" class="pl-10 pt-14" alt="" rel="preload">
         </div>
     </div>
 </template>

@@ -3,7 +3,7 @@
         <div class="md:flex justify-between items-center">
             <div class="md:flex">
                 <router-link to="/" class="mr-12">
-                    <img src="../assets/images/logo_agera.svg" alt="">
+                    <img src="../assets/images/logo_agera.svg" alt="" rel="preload">
                 </router-link>
                 <ul class="md:flex md:items-center">
                     <li class="md:mx-4" v-for="item in items" :key="item.id">

@@ -11,18 +11,18 @@
             </ul>
             <div class="md:flex mt-16">
                 <div>
-                    <center><button class="custom-color hover:bg-black duration-300 rounded-2xl px-2 py-2"><img src="../assets/images/web_types_icon_static.svg" alt=""></button></center>
+                    <center><button class="custom-color hover:bg-black duration-300 rounded-2xl px-2 py-2"><img src="../assets/images/web_types_icon_static.svg" alt="" rel="preload"></button></center>
                     <p class="text-white text-center mt-4">Web Statis</p>
                 </div>
                 <div class="ml-8">
-                    <center><button class="custom-color hover:bg-black duration-300 rounded-2xl px-2 py-2"><img src="../assets/images/web_types_icon_dynamic.svg" alt=""></button></center>
+                    <center><button class="custom-color hover:bg-black duration-300 rounded-2xl px-2 py-2"><img src="../assets/images/web_types_icon_dynamic.svg" alt="" rel="preload"></button></center>
                     <p class="text-white text-center mt-4">Web Dinamis</p>
                 </div>
             </div>
         </div>
         <div class="w-3/5 md:flex justify-end">
             <div class="md:w-48 h-full rounded-3xl custom-color p-9 mr-7 flex flex-col justify-center">
-                <router-link to="" class="text-white text-base hover:underline">Lihat Selengkapnya <img src="../assets/images/arrow_white.svg" alt=""> </router-link>
+                <router-link to="" class="text-white text-base hover:underline">Lihat Selengkapnya <img src="../assets/images/arrow_white.svg" rel="preload" alt=""> </router-link>
             </div>
             <div class="md:flex flex-wrap flex-col justify-between w-custom h-full">
                 <div class="w-60 h-44 bg-black rounded-xl"></div>
