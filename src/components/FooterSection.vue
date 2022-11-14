@@ -1,10 +1,10 @@
 <template>
-    <div class="mt-32">
-        <div class="md:flex mx-24 my-14">
+    <div class="md:mt-32 mt-48">
+        <div class="md:flex md:mx-24 md:my-14 mx-12">
             <div>
-                <img class="w-full" src="../assets/images/logo_agera.svg" alt="" rel="preload">
+                <img class="md:w-full" src="../assets/images/logo_agera.svg" alt="" rel="preload">
             </div>
-            <ul class="ml-32">
+            <ul class="md:ml-32 md:mt-0 mt-16">
                 <li class="text-black font-medium text-lg">Navigasi</li>
                 <li class="text-base text-softblue mt-4 hover:underline">
                     <router-link to="/">Layanan Kami</router-link>
@@ -16,7 +16,7 @@
                     <router-link to="/">Karya Kami</router-link>
                 </li>
             </ul>
-            <ul class="ml-32">
+            <ul class="md:ml-32 md:mt-0 mt-16">
                 <li class="text-black font-medium text-lg">Bantuan</li>
                 <li class="text-base text-softblue mt-4 hover:underline">
                     <router-link to="/">Konsultasi</router-link>
@@ -31,7 +31,7 @@
                     <router-link to="/">Pembayaran</router-link>
                 </li>
             </ul>
-            <ul class="ml-32">
+            <ul class="md:ml-32 md:mt-0 mt-16">
                 <li class="text-black font-medium text-lg">Member Area</li>
                 <li class="text-base text-softblue mt-4 hover:underline">
                     <router-link to="/">Hak Pembeli Jasa</router-link>
@@ -44,7 +44,7 @@
                 </li>
             </ul>
         </div>
-        <div class="text-base text-center text-softblue flex flex-col justify-center h-14 border-t mx-24">
+        <div class="text-base text-center text-softblue flex flex-col justify-center h-14 border-t md:mx-24 md:mt-0 mt-20 mx-12">
             <p>Copyright &copy; 2022 Agera Digital</p>
         </div>
     </div>

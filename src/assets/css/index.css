@@ -16,6 +16,10 @@ body {
     color: #2D4665;
 }
 
+.bg-softblue {
+    background: #3D67D2;
+}
+
 #app {
     font-family: 'Poppins', sans-serif;
     /* -webkit-font-smoothing: antialiased; */
