@@ -1,6 +1,6 @@
 <template>
     <div class="w-full md:mb-0 mb-32">
-      <h2 class="font-semibold text-center text-xl md:mx-0 mx-4">Perusahaan yang Mempercayakan Solusi Masalahnya Pada Kami</h2>
+      <h2 class="font-semibold text-center md:text-xl text-lg md:mx-0 mx-4">Perusahaan yang Mempercayakan Solusi Masalahnya Pada Kami</h2>
       <div class="slider overflow-hidden md:mx-28 mx-2 md:my-16 my-12">
         <div class="flex justify-between animate-track">
           <img class="w-32 animate" src="../assets/images/himawari.png" alt="" rel="preload">
