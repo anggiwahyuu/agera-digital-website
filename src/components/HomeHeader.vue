@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="w-1/2 md:block hidden">
-            <img src="../assets/images/hero_image.png" class="pl-10 pt-14 md:block hidden" alt="" rel="preload">
+            <img src="../assets/images/hero_image.webp" class="pl-10 pt-14 md:block hidden" alt="" rel="preload">
         </div>
     </div>
 </template>

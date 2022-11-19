@@ -36,7 +36,7 @@ export default {
 }
 
 .bg-image {
-    background: url("../assets/images/right_image.png");
+    background: url("../assets/images/right_image.webp");
     background-size: cover;
 }
 </style>

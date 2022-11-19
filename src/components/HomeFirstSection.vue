@@ -31,7 +31,6 @@ export default {
 <style scoped>
 .slider::before, .slider::after {
   content: "";
-  height: 100px;
   position: absolute;
 	width: 200px;
 	z-index: 2;

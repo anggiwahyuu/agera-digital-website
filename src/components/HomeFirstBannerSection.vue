@@ -32,7 +32,7 @@ export default {
 
 <style scoped>
     .bg-custom {
-        background-image: url("../assets/images/card_bg.png");
+        background-image: url("../assets/images/card_bg.webp");
         background-size: cover;
     }
 </style>
