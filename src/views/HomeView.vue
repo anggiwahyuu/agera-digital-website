@@ -30,6 +30,6 @@ export default {
     HomeFirstBannerSection,
     HomeSecondBannerSection,
     FooterSection
-  }
+  },
 }
 </script>

@@ -26,7 +26,7 @@
                 </button>
             </div>
         </div>
-        <div v-bind:class="{'max-h-0': !showMenu, 'transition-all duration-300 max-h-96': showMenu}" class="md:hidden bg-gray-50 px-10 duration-300 overflow-hidden">
+        <div v-bind:class="{'max-h-0': !showMenu, 'max-h-96': showMenu}" class="md:hidden bg-gray-50 px-10 duration-300 overflow-hidden transition-all">
             <ul class="md:hidden md:items-center">
                 <li class="py-2 router-responsive hover:bg-gray-100" v-for="item in items" :key="item.id">
                     <router-link :to="item.link" class="text-sm duration-300 md:bg-transparent">{{item.menu}}</router-link>
@@ -43,7 +43,6 @@
 <script>
 export default {
     name : "NavBar",
-
     data(){
         return {
             items: [
@@ -56,7 +55,6 @@ export default {
             showMenu: false,
         }
     },
-
     methods: {
         toggleNavbar: function(){
             this.showMenu = !this.showMenu;

@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkagera_digital_website"]=self["webpackChunkagera_digital_website"]||[]).push([[924],{3924:function(e,n,a){a.r(n),a.d(n,{default:function(){return o}});var r=a(3396);function t(e,n,a,t,i,u){const c=(0,r.up)("nav-bar");return(0,r.wg)(),(0,r.j4)(c)}var i=a(2444),u={name:"PricingView",components:{NavBar:i.Z}},c=a(89);const s=(0,c.Z)(u,[["render",t]]);var o=s}}]);
-//# sourceMappingURL=924.677b9383.js.map
