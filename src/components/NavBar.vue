@@ -1,5 +1,5 @@
 <template>
-    <nav class="bg-white text-black md:px-20 md:py-6">
+    <nav class="bg-white text-black md:px-20 md:py-6 dark:bg-red-500">
         <div class="flex justify-between items-center md:py-0 md:px-0 py-4 px-6">
             <div class="md:flex items-center">
                 <router-link to="/" class="md:w-52 md:mr-12 items-center">
@@ -11,7 +11,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="hidden md:flex ">
+            <div class="hidden md:flex">
                 <router-link to="/register"><button class="bg-gray-200 hover:bg-blue-500 hover:text-white duration-300 font-sm text-black rounded-full py-2 px-8">Daftar</button></router-link>
                 <router-link to="/login"><button class="bg-blue-500 hover:bg-blue-700 duration-300 font-sm text-white rounded-full py-2 px-8 md:ml-4">Masuk</button></router-link>
             </div>
